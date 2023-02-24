@@ -33,10 +33,6 @@ FeatureCard.propTypes = {
   index: PropTypes.number.isRequired,
 };
 
-FeatureCard.defaultProps = {
-  icon: "smile",
-};
-
 const Business = () => (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
