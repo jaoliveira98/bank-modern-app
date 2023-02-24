@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import styles from "../style";
 import { stats } from "../constants/index.js";
 
@@ -22,6 +23,16 @@ const Stats = () => {
       ))}
     </section>
   );
+};
+
+Stats.propTypes = {
+  stats: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      value: PropTypes.string.isRequired,
+      title: PropTypes.string.isRequired,
+    })
+  ),
 };
 
 export default Stats;
