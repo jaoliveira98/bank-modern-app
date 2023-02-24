@@ -13,23 +13,13 @@ import send from "../assets/Send.svg";
 import shield from "../assets/Shield.svg";
 import star from "../assets/Star.svg";
 
+const BASE_URL = "#/";
+
 export const navLinks = [
-  {
-    id: "home",
-    title: "Home",
-  },
-  {
-    id: "features",
-    title: "Features",
-  },
-  {
-    id: "product",
-    title: "Product",
-  },
-  {
-    id: "clients",
-    title: "Clients",
-  },
+  { id: "home", title: "Home" },
+  { id: "features", title: "Features" },
+  { id: "product", title: "Product" },
+  { id: "clients", title: "Clients" },
 ];
 
 export const features = [
@@ -84,46 +74,34 @@ export const feedback = [
 ];
 
 export const stats = [
-  {
-    id: "stats-1",
-    title: "User Active",
-    value: "3800+",
-  },
-  {
-    id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
-  },
-  {
-    id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
-  },
+  { id: "stats-1", title: "User Active", value: "3800+" },
+  { id: "stats-2", title: "Trusted by Company", value: "230+" },
+  { id: "stats-3", title: "Transaction", value: "$230M+" },
 ];
 
-export const footerLinks = [
+export const footerLinkItems = [
   {
     title: "Useful Links",
     links: [
       {
         name: "Content",
-        link: "https://www.hoobank.com/content/",
+        link: `${BASE_URL}content/`,
       },
       {
         name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        link: `${BASE_URL}how-it-works/`,
       },
       {
         name: "Create",
-        link: "https://www.hoobank.com/create/",
+        link: `${BASE_URL}create/`,
       },
       {
         name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        link: `${BASE_URL}explore/`,
       },
       {
         name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        link: `${BASE_URL}terms-and-services/`,
       },
     ],
   },
@@ -132,23 +110,23 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        link: `${BASE_URL}help-center/`,
       },
       {
         name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        link: `${BASE_URL}partners/`,
       },
       {
         name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        link: `${BASE_URL}suggestions/`,
       },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        link: `${BASE_URL}blog/`,
       },
       {
         name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        link: `${BASE_URL}newsletters/`,
       },
     ],
   },
@@ -157,11 +135,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        link: `${BASE_URL}our-partner/`,
       },
       {
         name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: `${BASE_URL}become-a-partner/`,
       },
     ],
   },
