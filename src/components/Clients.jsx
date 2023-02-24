@@ -1,5 +1,7 @@
 import React from "react";
 
-export function Clients() {
-  return <p>Clients</p>;
-}
+const Clients = () => {
+  return <div>Clients</div>;
+};
+
+export default Clients;

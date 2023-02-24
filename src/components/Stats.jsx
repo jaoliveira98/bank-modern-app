@@ -1,5 +1,7 @@
 import React from "react";
 
-export function Stats() {
-  return <p>Stats</p>;
-}
+const Stats = () => {
+  return <div>Stats</div>;
+};
+
+export default Stats;

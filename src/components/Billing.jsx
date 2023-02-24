@@ -1,5 +1,7 @@
 import React from "react";
 
-export function Billing() {
-  return <p>Billing</p>;
-}
+const Billing = () => {
+  return <div>Billing</div>;
+};
+
+export default Billing;

@@ -1,5 +1,7 @@
 import React from "react";
 
-export function Business() {
-  return <p>Business</p>;
-}
+const Business = () => {
+  return <div>Business</div>;
+};
+
+export default Business;
